@@ -8,11 +8,11 @@
   <name>SSM_CRUD Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
-  <!--低版本的Junit在idea中无法使用-->
+  <!--低版本的Junit在idea，低版本也不支持高版本的Spring中无法使用-->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.8.1</version>
+      <version>4.12</version>
       <scope>test</scope>
     </dependency>
     <!--引入pageHelper分页插件 -->
